@@ -10,7 +10,7 @@ function toggleMode() {
   // ABAIXO CODIGO JA PRONTO DO SISTEMA ABAIXO
 
   html.classList.toggle("light")
-
+  
   // PEGAR A TAG IMAGE
   const img = document.querySelector("#profile img")
 
@@ -22,4 +22,5 @@ function toggleMode() {
     // SE TIVER DARKMODE, MANTER A IMAGEM NORMAL
     img.setAttribute("src", "./assets/gato-dark.jpg")
   }
+  
 }
